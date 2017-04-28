@@ -10,5 +10,12 @@
     "author": "Some gal",
     "shortQuestion": "How do I force ember to pass a validation token from page to page?",
     "notes": "I do not want it in my model but I want this to pass around like a state variable."
+  }],
+  "answers": [{
+  "author": "Andrea",
+  "answerText": 4
+  }, {
+  "author": "Alex",
+  "answerText": 9
   }]
 }
