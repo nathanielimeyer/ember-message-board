@@ -1,0 +1,12 @@
+<p>Here will be:
+a list of questions with links to question details
+an add question form
+</p>
+
+<ul>
+  {{#each model as |question|}}
+     <li>{{question.author}} - {{question.question}}</li>
+  {{/each}}
+</ul>
+
+{{outlet}}
