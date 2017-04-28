@@ -5,7 +5,7 @@ an add question form
 
 <ul>
   {{#each model as |question|}}
-     <li>{{question.author}} - {{question.question}}</li>
+    {{question-tile question=question}}
   {{/each}}
 </ul>
 
