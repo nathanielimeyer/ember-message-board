@@ -1,14 +1,14 @@
 { "questions": [{
     "author": "Bob Dobolina",
-    "question": "Does Ember solve more problems than it creates?",
+    "shortQuestion": "Does Ember solve more problems than it creates?",
     "notes": "I am asking because it seems like it is supposed to simplify things but it makes so many other things so much harder."
   }, {
     "author": "Some guy",
-    "question": "How can I make ember pass variables between routes if they are not in the model?",
+    "shortQuestion": "How can I make ember pass variables between routes if they are not in the model?",
     "notes": "For example, I wouldd like a user to be able who selects accessibility settings to have them applied on all pages."
   }, {
     "author": "Some gal",
-    "question": "How do I force ember to pass a validation token from page to page?",
+    "shortQuestion": "How do I force ember to pass a validation token from page to page?",
     "notes": "I do not want it in my model but I want this to pass around like a state variable."
   }]
 }

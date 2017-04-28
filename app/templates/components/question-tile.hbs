@@ -1,1 +1,6 @@
-<li>{{question.author}} - {{question.question}}  {{update-question question=question update="update"}}</li>
+<!-- <li>{{question.author}} - {{question.question}}  {{update-question question=question update="update"}}</li> -->
+
+
+<li>
+  {{#link-to 'question' question.id}}{{question.author}}'s question: {{question.shortQuestion}}  {{/link-to}}
+</li>
